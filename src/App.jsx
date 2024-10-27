@@ -9,7 +9,7 @@ import CityList from "./components/CityList";
 import PageNotFound from "./pages/PageNotFound";
 
 export default function App() {
-  const [cities, setCities] = useState({});
+  const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
